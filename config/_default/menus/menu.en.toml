@@ -15,12 +15,12 @@
   weight = -108
 [[main]]
   parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
+  name = "Github"
+  url = "https://github.com/stevengogogo"
 [[main]]
   parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
+  name = "NTU mito Lab"
+  url = "https://ntubmse.com/"
 
 [[main]]
   name = "About"

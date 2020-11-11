@@ -4,7 +4,7 @@
 #   weight = -110
 
 [[main]]
-  name = "Posts"
+  name = "貼文"
   url = "post/"
   weight = -112
 
@@ -15,14 +15,14 @@
   weight = -108
 [[main]]
   parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
+  name = "Github"
+  url = "https://github.com/stevengogogo"
 [[main]]
   parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/"
+  name = "NTU mito Lab"
+  url = "https://ntubmse.com/"
 
 [[main]]
-  name = "About"
+  name = "簡介"
   url = "about/"
   weight = -107
