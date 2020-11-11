@@ -1,6 +1,10 @@
 # You could add more entries for multilanguage
 [en]
-  title = "NTUMito"
+  title = "Shao-Ting Steven Chiu"
   LanguageName = "English"
   weight = 1
-  
+
+[tw]
+  title = "邱紹庭" # just for the sake of showing this is possible
+  LanguageName = "繁體中文"
+  weight = 2
