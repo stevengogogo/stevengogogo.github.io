@@ -1,0 +1,26 @@
+image: monachus/hugo
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+stages:
+  - test
+  - deploy
+
+test:
+  stage: test
+  script:
+  - hugo
+  except:
+  - main
+
+pages:
+  stage: deploy
+  script:
+  - hugo --gc --minify
+  - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\|svg\|md\)$' -exec gzip -f -k {} \; || echo 'Compression failed. Skipping...'
+  artifacts:
+    paths:
+    - public
+  only:
+  - main
