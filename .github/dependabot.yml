@@ -8,3 +8,10 @@ updates:
   - "CI/CD"
   commit-message:
     prefix: ci
+- package-ecosystem: "gitsubmodule"
+  directory: "/"
+  schedule:
+    interval: "daily"
+  labels:
+  - "dependencies"
+  - "automerge"
