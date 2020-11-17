@@ -3,7 +3,7 @@ author: "Wen-Wei Tseng"
 title: "Hugo Page Content"
 date: "2019-03-10"
 description: ""
-tags: ["shortcodes", "markdown"]
+tags: ["shortcodes", "markdown", "Hugo usage"]
 thumbnail: "images/dollar.png"
 ---
 

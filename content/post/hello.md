@@ -10,7 +10,7 @@ featureImage: "" # Sets featured image on blog post.
 thumbnail: "" # Sets thumbnail image appearing inside card on homepage.
 shareImage: "" # Designate a separate image for social media sharing.
 categories: []
-tags: []
+tags: ["Hugo usage"]
 comment: false # Disable comment if false.
 ---
 
