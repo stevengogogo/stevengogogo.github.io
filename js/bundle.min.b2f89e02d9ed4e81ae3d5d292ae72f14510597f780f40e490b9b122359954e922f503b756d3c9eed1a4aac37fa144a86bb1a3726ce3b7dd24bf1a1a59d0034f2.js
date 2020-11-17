@@ -4,7 +4,7 @@ function elem(selector,parent=document){let elem=parent.querySelector(selector);
 function elems(selector,parent=document){let elems=parent.querySelectorAll(selector);return elems.length?elems:false;}
 function pushClass(el,targetClass){if(isObj(el)&&targetClass){elClass=el.classList;elClass.contains(targetClass)?false:elClass.add(targetClass);}}
 function hasClasses(el){if(isObj(el)){const classes=el.classList;return classes.length}}
-(function markInlineCodeTags(){const codeBlocks=elems('code');if(codeBlocks){codeBlocks.forEach(function(codeBlock){containsClass(codeBlock,'verbatim')?pushClass(codeBlock,'noClass'):false;hasClasses(codeBlock)?false:pushClass(codeBlock,'noClass');});}})();function deleteClass(el,targetClass){if(isObj(el)&&targetClass){elClass=el.classList;elClass.contains(targetClass)?elClass.remove(targetClass):false;}}
+(function markInlineCodeTags(){const codeBlocks=elems('code');if(codeBlocks){codeBlocks.forEach(function(codeBlock){hasClasses(codeBlock)?false:pushClass(codeBlock,'noClass');});}})();function deleteClass(el,targetClass){if(isObj(el)&&targetClass){elClass=el.classList;elClass.contains(targetClass)?elClass.remove(targetClass):false;}}
 function modifyClass(el,targetClass){if(isObj(el)&&targetClass){elClass=el.classList;elClass.contains(targetClass)?elClass.remove(targetClass):elClass.add(targetClass);}}
 function containsClass(el,targetClass){if(isObj(el)&&targetClass&&el!==document){return el.classList.contains(targetClass)?true:false;}}
 function elemAttribute(elem,attr,value=null){if(value){elem.setAttribute(attr,value);}else{value=elem.getAttribute(attr);return value?value:false;}}
