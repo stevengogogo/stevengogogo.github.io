@@ -3,7 +3,7 @@ author: "Wen-Wei Tseng"
 title: "KaTeX support"
 date: "2020-11-10"
 description: ""
-tags: ["katex", "mhchem"]
+tags: ["Latex", "mhchem", "Hugo usage"]
 thumbnail: ""
 ---
 
@@ -111,3 +111,4 @@ $$
 $$
 \ce{Zn^2+  <=>[+ 2OH-][+ 2H+]  $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$  <=>[+ 2OH-][+ 2H+]  $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}
 $$
+

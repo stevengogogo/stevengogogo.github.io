@@ -9,8 +9,8 @@ toc: true # Controls if a table of contents should be generated for first-level 
 featureImage: "" # Sets featured image on blog post.
 thumbnail: "" # Sets thumbnail image appearing inside card on homepage.
 shareImage: "" # Designate a separate image for social media sharing.
-categories: [Julia]
-tags: [DevOps, Github]
+categories: ["Julia-Programming"]
+tags: ["DevOps", "Github"]
 comment: false # Disable comment if false.
 ---
 

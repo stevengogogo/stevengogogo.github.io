@@ -9,8 +9,8 @@ toc: true # Controls if a table of contents should be generated for first-level 
 featureImage: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg" # Sets featured image on blog post.
 thumbnail: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg" # Sets thumbnail image appearing inside card on homepage.
 shareImage: "" # Designate a separate image for social media sharing.
-categories: ["Code"]
-tags: ["web"]
+categories: []
+tags: ["Hugo"]
 comment: false # Disable comment if false.
 ---
 
