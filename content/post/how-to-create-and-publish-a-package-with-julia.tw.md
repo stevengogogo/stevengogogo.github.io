@@ -121,11 +121,11 @@ LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBNnpiRkdXQVZpYlIy
 julia> DocumenterTools.genkeys(user="JuliaDocs", repo="DocumenterTools.jl")
 [Info: add the public key below to https://github.com/JuliaDocs/DocumenterTools.jl/settings/keys with read/write access:
 
-ssh-rsa AAAAB3NzaC2yc2EAAAaDAQABAAABAQDrNsUZYBWJtXYUk21wxZbX3KxcH8EqzR3ZdTna0Wgk...jNmUiGEMKrr0aqQMZEL2BG7 username@hostname
+ssh-rsa AAAAB3NzaC2yc2rNsUZYBWJtX3KxcH8EqzR3ZdTna0Wgk...jNmUiGEMKrr0aqQMZEL2BG7 username@hostname
 
 [ Info: add a secure environment variable named 'DOCUMENTER_KEY' to https://travis-ci.com/JuliaDocs/DocumenterTools.jl/settings (if you deploy using Travis CI) or https://github.com/JuliaDocs/DocumenterTools.jl/settings/secrets (if you deploy using GitHub Actions) with value:
 
-LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBNnpiRkdXQVZpYlIy...QkVBRWFjY3BxaW9uNjFLaVdOcDU5T2YrUkdmCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==
+LSdJTiBSU0EgUFtLS0tLQpNSUlFb3dJQkFBS0NBUUVBNnpiRkdXQVZpYlIy...QkVBRWFjY3BxaW9uNaVdOcDU5T2YrUkdmCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg==
 ```
 
 Github Reposritory Setting
@@ -151,3 +151,7 @@ Github Reposritory Setting
 `username.github.io/PackageName/dev`
 
 看到 Docuementation. 
+
+---
+
+## Reference
