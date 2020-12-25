@@ -1,4 +1,164 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>邱紹庭</title><link>https://stevengogogo.github.io/tw/</link><description>Recent content on 邱紹庭</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 16 Nov 2020 21:44:26 +0800</lastBuildDate><atom:link href="https://stevengogogo.github.io/tw/index.xml" rel="self" type="application/rss+xml"/><item><title>Julia Documentation 與 Literate.jl</title><link>https://stevengogogo.github.io/tw/post/julia-documentation-with-documenter/</link><pubDate>Mon, 16 Nov 2020 21:44:26 +0800</pubDate><guid>https://stevengogogo.github.io/tw/post/julia-documentation-with-documenter/</guid><description>&lt;p>Julia Documenter.jl 提供執行文件程式碼的功能。包括繪圖與顯示運算結果，能夠更加豐富的呈現套件使用的方式與檢查範例程式碼的錯誤&lt;/p></description></item><item><title>第一次寫 Julia 套件就上手</title><link>https://stevengogogo.github.io/tw/post/how-to-create-and-publish-a-package-with-julia/</link><pubDate>Fri, 13 Nov 2020 16:09:14 +0800</pubDate><guid>https://stevengogogo.github.io/tw/post/how-to-create-and-publish-a-package-with-julia/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>邱紹庭</title><link>https://stevengogogo.github.io/tw/</link><description>Recent content on 邱紹庭</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 16 Nov 2020 21:44:26 +0800</lastBuildDate><atom:link href="https://stevengogogo.github.io/tw/index.xml" rel="self" type="application/rss+xml"/><item><title>Julia Documentation 與 Literate.jl</title><link>https://stevengogogo.github.io/tw/post/julia-documentation-with-documenter/</link><pubDate>Mon, 16 Nov 2020 21:44:26 +0800</pubDate><guid>https://stevengogogo.github.io/tw/post/julia-documentation-with-documenter/</guid><description>
+&lt;p>Julia Documenter.jl 提供執行文件程式碼的功能。包括繪圖與顯示運算結果，能夠更加豐富的呈現套件使用的方式與檢查範例程式碼的錯誤&lt;/p>
+&lt;blockquote>
+&lt;p>Examples 是讓使用者能夠直接了解套件如何使用的最佳方法。在 demo 時，除了展現 pipline 外，&lt;a href="https://fredrikekre.github.io/Literate.jl/v2/">Literate.jl&lt;/a> 可以將內文的程式碼運行，來顯示運算結果，甚至是繪圖。這篇 tutorial, 將會快速帶過使用 Literate.jl 支持的語法輔助你的範例程式碼&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="什麼是-literatejl">什麼是 Literate.jl?&lt;/h2>
+&lt;h2 id="如何使用-literatejl-支持的-syntax">如何使用 Literate.jl 支持的 Syntax&lt;/h2>
+&lt;h3 id="julia-repl-模式">Julia REPL 模式&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span> using package
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span> julia&amp;gt; using package
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="example-區塊---展現-pipline-與運算結果">Example 區塊 - 展現 pipline 與運算結果&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span> ```@example name
+&lt;span class="ln">2&lt;/span> # your code
+&lt;span class="ln">3&lt;/span> ```
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="setting-區塊---為-example-架設環境">Setting 區塊 - 為 Example 架設環境&lt;/h3>
+&lt;h3 id="如何使用-pyplotjl-呈現結果並顯示於網頁上">如何使用 PyPlot.jl 呈現結果並顯示於網頁上&lt;/h3>
+&lt;h3 id="indexing---自動產生-docstring-與--function-的索引">Indexing - 自動產生 docstring 與 function 的索引&lt;/h3>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-md" data-lang="md">&lt;span class="ln">1&lt;/span> ```@index
+&lt;span class="ln">2&lt;/span> ```
+&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>&lt;strong>&lt;center>⚠️&lt;/center>&lt;/strong>
+Submodule 無法被 indexing 偵測到, 必須要分別 &lt;code>using foo.submodule&lt;/code> 來建立 index&lt;/p>
+&lt;/blockquote>
+&lt;p>\(\delta \frac{\Phi}{\phi}\)&lt;/p></description></item><item><title>第一次寫 Julia 套件就上手</title><link>https://stevengogogo.github.io/tw/post/how-to-create-and-publish-a-package-with-julia/</link><pubDate>Fri, 13 Nov 2020 16:09:14 +0800</pubDate><guid>https://stevengogogo.github.io/tw/post/how-to-create-and-publish-a-package-with-julia/</guid><description>
+&lt;blockquote>
 &lt;p>&lt;a href="https://en.wikipedia.org/wiki/DevOps">套件開發 (DevOps)&lt;/a> 是一個將 program 整理與公開使用的一步驟. 這篇文章將講述如何使用 PkgTemplates.jl 和 Github 來公開一個 Julia 套件&lt;/p>
-&lt;/blockquote></description></item><item><title>簡歷</title><link>https://stevengogogo.github.io/tw/about/</link><pubDate>Wed, 11 Nov 2020 18:04:36 +0800</pubDate><guid>https://stevengogogo.github.io/tw/about/</guid><description> img { border-radius: 50%; } .responsive { max-width: 100%; height: auto; } 個人經歷 學術</description></item><item><title>Hello</title><link>https://stevengogogo.github.io/tw/post/hello/</link><pubDate>Wed, 11 Nov 2020 18:00:51 +0800</pubDate><guid>https://stevengogogo.github.io/tw/post/hello/</guid><description>&lt;p>&lt;strong>Insert Lead paragraph here.&lt;/strong>
-introcution&lt;/p></description></item></channel></rss>
+&lt;/blockquote>
+&lt;h1 id="名詞解釋">名詞解釋&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">套件&lt;/th>
+&lt;th style="text-align:center">說明&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">&lt;a href="https://github.com/invenia/PkgTemplates.jl">PkgTemplate.jl&lt;/a>&lt;/td>
+&lt;td style="text-align:center">用來產生 Package 架構的套件&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">&lt;a href="https://github.com/JuliaDocs/DocumenterTools.jl">DocumenterTools.jl&lt;/a>&lt;/td>
+&lt;td style="text-align:center">能夠產生 RSA key 來提供在 Github action 架設文件網頁所需的金鑰&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="流程">流程&lt;/h1>
+&lt;h2 id="在-github-創造-空的-repository">在 github 創造 空的 Repository&lt;/h2>
+&lt;ol>
+&lt;li>Julia 習慣用: &lt;code>*.jl&lt;/code> 當 repository 名稱, 並設成 &lt;code>public&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h2 id="使用-pkgtemplatesjl-產生-pkg-folder">使用 PkgTemplates.jl 產生 Pkg folder&lt;/h2>
+&lt;p>用以下指令在 &lt;code>Julia-REPL&lt;/code> 安裝 &lt;a href="https://github.com/invenia/PkgTemplates.jl">PkgTemplates.jl&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>&lt;span class="o">]&lt;/span> add PkgTemplates
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>接下來要輸入兩種方式. 用 &lt;a href="https://invenia.github.io/PkgTemplates.jl/stable/user/#Template-1">Template&lt;/a> 產生執行物件，接著&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-julia" data-lang="julia">&lt;span class="ln">1&lt;/span>&lt;span class="k">using&lt;/span> &lt;span class="n">PkgTemplates&lt;/span>
+&lt;span class="ln">2&lt;/span>&lt;span class="n">t&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">Template&lt;/span>&lt;span class="p">(;&lt;/span>&lt;span class="n">interactive&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="kc">false&lt;/span>&lt;span class="o">:&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="c"># 問答式輸入&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol>
+&lt;li>輸入 github user name&lt;/li>
+&lt;li>輸入 local directory&lt;/li>
+&lt;li>用 codev&lt;/li>
+&lt;li>github action (ci.yml)&lt;/li>
+&lt;li>&lt;code>docs&lt;/code>&lt;/li>
+&lt;li>Julia 版本&lt;/li>
+&lt;li>測試系統: &lt;code>MacOS&lt;/code>, &lt;code>Windows&lt;/code>, &lt;code>Linux&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>接著&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>t(&amp;#34;PackageName&amp;#34;)
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>這時會在 &lt;code>local directory&lt;/code> 產生名為 &lt;code>PackageName&lt;/code> 的 folder. 這時候會有以下結構&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln"> 1&lt;/span>
+&lt;span class="ln"> 2&lt;/span>- PackageName/
+&lt;span class="ln"> 3&lt;/span> - src/
+&lt;span class="ln"> 4&lt;/span> - PackageName.jl
+&lt;span class="ln"> 5&lt;/span> - test/
+&lt;span class="ln"> 6&lt;/span> - runtests.jl
+&lt;span class="ln"> 7&lt;/span> - .github/
+&lt;span class="ln"> 8&lt;/span> - ci.yml
+&lt;span class="ln"> 9&lt;/span> - doc/
+&lt;span class="ln">10&lt;/span> - src/
+&lt;span class="ln">11&lt;/span> - index.md
+&lt;span class="ln">12&lt;/span> - make.jl
+&lt;span class="ln">13&lt;/span> - Package.toml
+&lt;span class="ln">14&lt;/span> - Manifest.toml
+&lt;span class="ln">15&lt;/span> - Package.toml
+&lt;span class="ln">16&lt;/span> - Manifest.toml
+&lt;span class="ln">17&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="git-push">git push&lt;/h2>
+&lt;p>送上 remote site&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>git add.
+&lt;span class="ln">2&lt;/span>git commit -a -m &lt;span class="s2">&amp;#34;Create Pkg&amp;#34;&lt;/span>
+&lt;span class="ln">3&lt;/span>git push
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="用-documentertoolsjl-產生-rsa-碼">用 DocumenterTools.jl 產生 RSA 碼&lt;/h2>
+&lt;p>在 &lt;code>base&lt;/code> 環境安裝 DocumenterTools.jl&lt;/p>
+&lt;p>&lt;a href="https://juliadocs.github.io/Documenter.jl/stable/lib/public/#DocumenterTools.genkeys">官方文件參考&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>] add DocumenterTools
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-julia" data-lang="julia">&lt;span class="ln">1&lt;/span>&lt;span class="k">using&lt;/span> &lt;span class="n">DocumenterTools&lt;/span>
+&lt;span class="ln">2&lt;/span>&lt;span class="n">DocumenterTools&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">genkeys&lt;/span>&lt;span class="p">()&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln"> 1&lt;/span>julia&amp;gt; DocumenterTools.genkeys&lt;span class="o">()&lt;/span>
+&lt;span class="ln"> 2&lt;/span>&lt;span class="o">[&lt;/span> Info: add the public key below to https://github.com/&lt;span class="nv">$USER&lt;/span>/&lt;span class="nv">$REPO&lt;/span>/settings/keys with read/write access:
+&lt;span class="ln"> 3&lt;/span>
+&lt;span class="ln"> 4&lt;/span>ssh-rsa AAAAB3NzaC2yc2EAAAaDAQABAAABAQDrNsUZYBWJtXYUk21wxZbX3KxcH8EqzR3ZdTna0Wgk...jNmUiGEMKrr0aqQMZEL2BG7 username@hostname
+&lt;span class="ln"> 5&lt;/span>
+&lt;span class="ln"> 6&lt;/span>&lt;span class="o">[&lt;/span> Info: add a secure environment variable named &lt;span class="s1">&amp;#39;DOCUMENTER_KEY&amp;#39;&lt;/span> to https://travis-ci.com/&lt;span class="nv">$USER&lt;/span>/&lt;span class="nv">$REPO&lt;/span>/settings &lt;span class="o">(&lt;/span>&lt;span class="k">if&lt;/span> you deploy using Travis CI&lt;span class="o">)&lt;/span> or https://github.com/&lt;span class="nv">$USER&lt;/span>/&lt;span class="nv">$REPO&lt;/span>/settings/secrets &lt;span class="o">(&lt;/span>&lt;span class="k">if&lt;/span> you deploy using GitHub Actions&lt;span class="o">)&lt;/span> with value:
+&lt;span class="ln"> 7&lt;/span>
+&lt;span class="ln"> 8&lt;/span>LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFb3dJQkFBS0NBUUVBNnpiRkdXQVZpYlIy...QkVBRWFjY3BxaW9uNjFLaVdOcDU5T2YrUkdmCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg&lt;span class="o">==&lt;/span>
+&lt;span class="ln"> 9&lt;/span>
+&lt;span class="ln">10&lt;/span>
+&lt;span class="ln">11&lt;/span>julia&amp;gt; DocumenterTools.genkeys&lt;span class="o">(&lt;/span>&lt;span class="nv">user&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;JuliaDocs&amp;#34;&lt;/span>, &lt;span class="nv">repo&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;DocumenterTools.jl&amp;#34;&lt;/span>&lt;span class="o">)&lt;/span>
+&lt;span class="ln">12&lt;/span>&lt;span class="o">[&lt;/span>Info: add the public key below to https://github.com/JuliaDocs/DocumenterTools.jl/settings/keys with read/write access:
+&lt;span class="ln">13&lt;/span>
+&lt;span class="ln">14&lt;/span>ssh-rsa AAAAB3NzaC2yc2rNsUZYBWJtX3KxcH8EqzR3ZdTna0Wgk...jNmUiGEMKrr0aqQMZEL2BG7 username@hostname
+&lt;span class="ln">15&lt;/span>
+&lt;span class="ln">16&lt;/span>&lt;span class="o">[&lt;/span> Info: add a secure environment variable named &lt;span class="s1">&amp;#39;DOCUMENTER_KEY&amp;#39;&lt;/span> to https://travis-ci.com/JuliaDocs/DocumenterTools.jl/settings &lt;span class="o">(&lt;/span>&lt;span class="k">if&lt;/span> you deploy using Travis CI&lt;span class="o">)&lt;/span> or https://github.com/JuliaDocs/DocumenterTools.jl/settings/secrets &lt;span class="o">(&lt;/span>&lt;span class="k">if&lt;/span> you deploy using GitHub Actions&lt;span class="o">)&lt;/span> with value:
+&lt;span class="ln">17&lt;/span>
+&lt;span class="ln">18&lt;/span>LSdJTiBSU0EgUFtLS0tLQpNSUlFb3dJQkFBS0NBUUVBNnpiRkdXQVZpYlIy...QkVBRWFjY3BxaW9uNaVdOcDU5T2YrUkdmCi0tLS0tRU5EIFJTQSBQUklWQVRFIEtFWS0tLS0tCg&lt;span class="o">==&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Github Reposritory Setting&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;img src="https://user-images.githubusercontent.com/29009898/99076987-01116880-25f7-11eb-8d03-f8273cc7068b.png" alt="Github Reposritory Setting">&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;/table>
+&lt;ul>
+&lt;li>&lt;code>SSA&lt;/code> 放在 &lt;code>Deploy keys&lt;/code>
+&lt;ul>
+&lt;li>要將 &lt;code>write/read&lt;/code> 打勾&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>DOCUMENTER_KEY&lt;/code> 放在 &lt;code>Secrets&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="github-action-測試專案-和-deploy-documentation">Github action: 測試專案 和 deploy documentation&lt;/h2>
+&lt;p>這時候 PkgTemplate 產生 的 &lt;code>.github/workflow/ci.yml&lt;/code> 會開始在 Github 伺服器運作&lt;/p>
+&lt;p>建議在 &lt;code>gh-pages&lt;/code> 產生 Documentation, 這可以在 &lt;code>make.jl&lt;/code> 確認&lt;/p>
+&lt;h2 id="完成">完成&lt;/h2>
+&lt;p>可以在&lt;/p>
+&lt;p>&lt;code>username.github.io/PackageName/dev&lt;/code>&lt;/p>
+&lt;p>看到 Docuementation.&lt;/p>
+&lt;hr>
+&lt;h2 id="reference">Reference&lt;/h2></description></item><item><title>Hello</title><link>https://stevengogogo.github.io/tw/post/hello/</link><pubDate>Wed, 11 Nov 2020 18:00:51 +0800</pubDate><guid>https://stevengogogo.github.io/tw/post/hello/</guid><description>
+&lt;p>&lt;strong>Insert Lead paragraph here.&lt;/strong>
+introcution&lt;/p>
+&lt;h2 id="fefef">fefef&lt;/h2>
+&lt;p>\( \frac{1}{2} \) fefefe&lt;/p>
+&lt;p>\( \frac{3}{} \)&lt;/p>
+&lt;center>
+&lt;p>efef&lt;/p>
+&lt;/center>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>eef&lt;/th>
+&lt;th>fefe&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>efe&lt;/td>
+&lt;td>fefe&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="fefe">fefe&lt;/h2>
+&lt;h4 id="efef">efef&lt;/h4></description></item></channel></rss>

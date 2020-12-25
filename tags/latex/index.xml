@@ -1,2 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latex on Shao-Ting Steven Chiu</title><link>https://stevengogogo.github.io/tags/latex/</link><description>Recent content in Latex on Shao-Ting Steven Chiu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://stevengogogo.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml"/><item><title>KaTeX support</title><link>https://stevengogogo.github.io/post/katex/</link><pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate><guid>https://stevengogogo.github.io/post/katex/</guid><description>&lt;p>This article showed examples for KaTeX math typesetting.&lt;/p>
-&lt;p>Examples are taken from &lt;a href="https://tiddlywiki.com/plugins/tiddlywiki/katex/">TiddlyWiki5&lt;/a>.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Latex on Shao-Ting Steven Chiu</title><link>https://stevengogogo.github.io/tags/latex/</link><description>Recent content in Latex on Shao-Ting Steven Chiu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://stevengogogo.github.io/tags/latex/index.xml" rel="self" type="application/rss+xml"/><item><title>KaTeX support</title><link>https://stevengogogo.github.io/post/katex/</link><pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate><guid>https://stevengogogo.github.io/post/katex/</guid><description>
+&lt;p>This article showed examples for KaTeX math typesetting.&lt;/p>
+&lt;p>Examples are taken from &lt;a href="https://tiddlywiki.com/plugins/tiddlywiki/katex/">TiddlyWiki5&lt;/a>.&lt;/p>
+&lt;h2 id="math-type-setting">Math type setting&lt;/h2>
+&lt;p>See \( \KaTeX \) &lt;a href="https://katex.org/docs/supported.html">supported functions&lt;/a> for more details.&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>Inline \\( \KaTeX \\) typesetting.
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Inline \( \KaTeX \) typesetting.&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$$
+&lt;span class="ln">2&lt;/span>f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+&lt;span class="ln">3&lt;/span>$$
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
+f(x) = \int_{-\infty}^\infty\hat f(\xi),e^{2 \pi i \xi x},d\xi
+$$&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$$
+&lt;span class="ln">2&lt;/span>\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }
+&lt;span class="ln">3&lt;/span>$$
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
+\frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdots} } } }
+$$&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$$
+&lt;span class="ln">2&lt;/span>1 + \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots = \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \quad\quad \text{for }\lvert q\rvert&amp;lt;1.
+&lt;span class="ln">3&lt;/span>$$
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
+1 + \frac{q^2}{(1-q)}+\frac{q^6}{(1-q)(1-q^2)}+\cdots = \prod_{j=0}^{\infty}\frac{1}{(1-q^{5j+2})(1-q^{5j+3})}, \quad\quad \text{for }\lvert q\rvert&amp;lt;1.
+$$&lt;/p>
+&lt;h2 id="chemical-typesetting">chemical typesetting&lt;/h2>
+&lt;p>Supported by &lt;a href="https://mhchem.github.io/MathJax-mhchem/">mhchem extension&lt;/a>.&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$$\ce{CO2 + C -&amp;gt; 2 CO}$$
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$\ce{CO2 + C -&amp;gt; 2 CO}$$&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$$
+&lt;span class="ln">2&lt;/span>\ce{Hg^2+ -&amp;gt;[I-] HgI2 -&amp;gt;[I-] [Hg^{II}I4]^2-}
+&lt;span class="ln">3&lt;/span>$$
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
+\ce{Hg^2+ -&amp;gt;[I-] HgI2 -&amp;gt;[I-] [Hg^{II}I4]^2-}
+$$&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$$
+&lt;span class="ln">2&lt;/span>\ce{x Na(NH4)HPO4 -&amp;gt;[\Delta] (NaPO3)_x + x NH3 ^ + x H2O}
+&lt;span class="ln">3&lt;/span>$$
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
+\ce{x Na(NH4)HPO4 -&amp;gt;[\Delta] (NaPO3)_x + x NH3 ^ + x H2O}
+$$&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$$
+&lt;span class="ln">2&lt;/span>\ce{A\bond{~--}B\bond{~=}C\bond{-~-}D}
+&lt;span class="ln">3&lt;/span>$$
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
+\ce{A\bond{~--}B\bond{~=}C\bond{-~-}D}
+$$&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$$
+&lt;span class="ln">2&lt;/span>\ce{Li^x_{Li,1-2x}Mg^._{Li,x}$V$&amp;#39;_{Li,x}Cl^x_{Cl}}
+&lt;span class="ln">3&lt;/span>$$
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
+\ce{Li^x_{Li,1-2x}Mg^._{Li,x}$V$'_{Li,x}Cl^x_{Cl}}
+$$&lt;/p>
+&lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="ln">1&lt;/span>$$
+&lt;span class="ln">2&lt;/span>\ce{Zn^2+ &amp;lt;=&amp;gt;[+ 2OH-][+ 2H+] $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$ &amp;lt;=&amp;gt;[+ 2OH-][+ 2H+] $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}
+&lt;span class="ln">3&lt;/span>$$
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
+\ce{Zn^2+ &amp;lt;=&amp;gt;[+ 2OH-][+ 2H+] $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$ &amp;lt;=&amp;gt;[+ 2OH-][+ 2H+] $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}
+$$&lt;/p></description></item></channel></rss>
