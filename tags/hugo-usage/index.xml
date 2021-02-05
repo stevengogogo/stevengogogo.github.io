@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo usage on Shao-Ting Steven Chiu</title><link>https://stevengogogo.github.io/tags/hugo-usage/</link><description>Recent content in Hugo usage on Shao-Ting Steven Chiu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 11 Nov 2020 18:07:43 +0800</lastBuildDate><atom:link href="https://stevengogogo.github.io/tags/hugo-usage/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Use Clarity</title><link>https://stevengogogo.github.io/post/how-to-use-clarity/</link><pubDate>Wed, 11 Nov 2020 18:07:43 +0800</pubDate><guid>https://stevengogogo.github.io/post/how-to-use-clarity/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo usage on Shao-Ting Steven Chiu</title><link>https://stevengogogo.github.io/tags/hugo-usage/</link><description>Recent content in Hugo usage on Shao-Ting Steven Chiu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 11 Nov 2020 18:07:43 +0800</lastBuildDate><atom:link href="https://stevengogogo.github.io/tags/hugo-usage/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Use Clarity</title><link>https://stevengogogo.github.io/post/hugo/how-to-use-clarity/</link><pubDate>Wed, 11 Nov 2020 18:07:43 +0800</pubDate><guid>https://stevengogogo.github.io/post/hugo/how-to-use-clarity/</guid><description>
 &lt;p>&lt;strong>Insert Lead paragraph here.&lt;/strong>&lt;/p>
 &lt;h1 id="also-serve-the-draft">Also serve the draft&lt;/h1>
 &lt;div class="highlight">&lt;pre class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="ln">1&lt;/span>
 &lt;span class="ln">2&lt;/span>hugo server -D
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Hello</title><link>https://stevengogogo.github.io/post/hello/</link><pubDate>Wed, 11 Nov 2020 18:00:51 +0800</pubDate><guid>https://stevengogogo.github.io/post/hello/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Hello</title><link>https://stevengogogo.github.io/post/hugo/hello/</link><pubDate>Wed, 11 Nov 2020 18:00:51 +0800</pubDate><guid>https://stevengogogo.github.io/post/hugo/hello/</guid><description>
 &lt;p>&lt;strong>Insert Lead paragraph here.&lt;/strong>
 introcution&lt;/p>
 &lt;h2 id="fefef">fefef&lt;/h2>
@@ -27,7 +27,7 @@ introcution&lt;/p>
 &lt;/tbody>
 &lt;/table>
 &lt;h2 id="fefe">fefe&lt;/h2>
-&lt;h4 id="efef">efef&lt;/h4></description></item><item><title>KaTeX support</title><link>https://stevengogogo.github.io/post/katex/</link><pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate><guid>https://stevengogogo.github.io/post/katex/</guid><description>
+&lt;h4 id="efef">efef&lt;/h4></description></item><item><title>KaTeX support</title><link>https://stevengogogo.github.io/post/hugo/katex/</link><pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate><guid>https://stevengogogo.github.io/post/hugo/katex/</guid><description>
 &lt;p>This article showed examples for KaTeX math typesetting.&lt;/p>
 &lt;p>Examples are taken from &lt;a href="https://tiddlywiki.com/plugins/tiddlywiki/katex/">TiddlyWiki5&lt;/a>.&lt;/p>
 &lt;h2 id="math-type-setting">Math type setting&lt;/h2>
@@ -85,7 +85,7 @@ $$&lt;/p>
 &lt;span class="ln">3&lt;/span>$$
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>$$
 \ce{Zn^2+ &amp;lt;=&amp;gt;[+ 2OH-][+ 2H+] $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$ &amp;lt;=&amp;gt;[+ 2OH-][+ 2H+] $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}
-$$&lt;/p></description></item><item><title>Hugo Page Content</title><link>https://stevengogogo.github.io/post/markdown/</link><pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><guid>https://stevengogogo.github.io/post/markdown/</guid><description>
+$$&lt;/p></description></item><item><title>Hugo Page Content</title><link>https://stevengogogo.github.io/post/hugo/markdown/</link><pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate><guid>https://stevengogogo.github.io/post/hugo/markdown/</guid><description>
 &lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p>
 &lt;p>As well as some shorcodes for Hugo.&lt;/p>
 &lt;h2 id="headings">Headings&lt;/h2>
