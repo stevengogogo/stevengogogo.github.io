@@ -6,9 +6,9 @@ featured: false # Sets if post is a featured post, making appear on the home pag
 draft: false # Sets whether to render this page. Draft of true will not be rendered.
 toc: true # Controls if a table of contents should be generated for first-level links automatically.
 # menu: main
-featureImage: "" # Sets featured image on blog post.
-thumbnail: "" # Sets thumbnail image appearing inside card on homepage.
-shareImage: "" # Designate a separate image for social media sharing.
+featureImage: "https://avatars.githubusercontent.com/u/743164?s=400&v=4" # Sets featured image on blog post.
+thumbnail: "https://avatars.githubusercontent.com/u/743164?s=400&v=4" # Sets thumbnail image appearing inside card on homepage.
+shareImage: "https://avatars.githubusercontent.com/u/743164?s=400&v=4" # Designate a separate image for social media sharing.
 categories: ["Julia-Programming"]
 tags: ["DevOps", "Github"]
 comment: false # Disable comment if false.
