@@ -1,28 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps on Shao-Ting Steven Chiu</title><link>https://stevengogogo.github.io/tags/devops/</link><description>Recent content in DevOps on Shao-Ting Steven Chiu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 13 Nov 2020 16:09:14 +0800</lastBuildDate><atom:link href="https://stevengogogo.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>第一次寫 Julia 套件就上手</title><link>https://stevengogogo.github.io/post/julia/how-to-create-and-publish-a-package-with-julia/</link><pubDate>Fri, 13 Nov 2020 16:09:14 +0800</pubDate><guid>https://stevengogogo.github.io/post/julia/how-to-create-and-publish-a-package-with-julia/</guid><description>
-&lt;blockquote>
-&lt;p>套件開發 (DevOp) 是一個將 program 整理與公開使用的一步驟. 這篇文章將講述如何使用 PkgTemplates.jl 和 Github 來公開一個 Julia 套件&lt;/p>
-&lt;/blockquote>
-&lt;h1 id="名詞解釋">名詞解釋&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">套件&lt;/th>
-&lt;th style="text-align:center">說明&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;a href="https://github.com/invenia/PkgTemplates.jl">PkgTemplate.jl&lt;/a>&lt;/td>
-&lt;td style="text-align:center">用來產生 Package 架構的套件&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td style="text-align:center">&lt;a href="https://github.com/JuliaDocs/DocumenterTools.jl">DocumenterTools.jl&lt;/a>&lt;/td>
-&lt;td style="text-align:center">能夠產生 RSA key 來提供在 Github action 架設文件網頁所需的金鑰&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="流程">流程&lt;/h1>
-&lt;ol>
-&lt;li>使用 Pkg&lt;/li>
-&lt;/ol>
-&lt;h1 id="fef">fef&lt;/h1></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevOps on Shao-Ting Steven Chiu</title><link>https://stevengogogo.github.io/tags/devops/</link><description>Recent content in DevOps on Shao-Ting Steven Chiu</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 13 Nov 2020 16:09:14 +0800</lastBuildDate><atom:link href="https://stevengogogo.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml"/><item><title>Publish a package with Julia</title><link>https://stevengogogo.github.io/post/julia/how-to-create-and-publish-a-package-with-julia/</link><pubDate>Fri, 13 Nov 2020 16:09:14 +0800</pubDate><guid>https://stevengogogo.github.io/post/julia/how-to-create-and-publish-a-package-with-julia/</guid><description>&lt;blockquote>
+&lt;p>DevOp is a process to organize and publish a workflow. This article summarize the way to publish a Julia package with &lt;a href="https://github.com/invenia/PkgTemplates.jl">PkgTemplates.jl&lt;/a>&lt;/p>
+&lt;/blockquote></description></item></channel></rss>
